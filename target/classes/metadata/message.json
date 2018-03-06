@@ -1,0 +1,13 @@
+{
+   "message":{
+      "recipientUUIDS":{
+         "type":"list",
+         "list_type":"string",
+         "required":true
+      },
+      "message":{
+         "type":"string",
+         "required":true
+      }
+   }
+}

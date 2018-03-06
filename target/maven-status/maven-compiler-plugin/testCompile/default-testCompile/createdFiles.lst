@@ -1,0 +1,9 @@
+ru\avilon\proxy\rest\RestXML_IT.class
+ru\avilon\proxy\conversion\ConvertData_IT.class
+ru\avilon\proxy\rest\RestBase.class
+ru\avilon\proxy\rest\configuration\TestDependencyBinder.class
+ru\avilon\proxy\rest\Rest_IT.class
+ru\avilon\proxy\rest\Logs_IT.class
+ru\avilon\proxy\data\Data_IT$1.class
+ru\avilon\proxy\data\Data_IT.class
+ru\avilon\proxy\rest\TestMetadata.class

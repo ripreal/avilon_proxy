@@ -1,0 +1,30 @@
+<V8Exch xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <V8Exch:Package>1</V8Exch:Package>
+  <V8Exch:Data>
+	<CatalogObject.СотрудникиОрганизаций>
+	    <Ref>12c5a843-5631-11e5-80c3-40a8f0260033</Ref>
+	    <IsFolder>false</IsFolder>
+	    <DeletionMark>false</DeletionMark>
+	    <Parent>00000000-0000-0000-0000-000000000000</Parent>
+	    <Code>0000000712</Code>
+	    <Description>Гравшин Артем Александрович</Description>
+	    <Актуальность>true</Актуальность>
+	    <ПодразделениеОрганизации>36d950fa-560f-11e5-80c3-40a8f0260033</ПодразделениеОрганизации>
+	    <Должность>6faecdb5-74c1-11e4-afd8-001185b8cfc6</Должность>
+	</CatalogObject.СотрудникиОрганизаций>
+	<CatalogObject.ПодразделенияОрганизаций>
+	    <Ref>36d950fa-560f-11e5-80c3-40a8f0260033</Ref>
+	    <DeletionMark>false</DeletionMark>
+	    <Owner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogRef.Организации">eab40d06-e0ff-11e3-bc40-001185b8cfc6</Owner>
+	    <Parent>bb5dfc43-560e-11e5-80c3-40a8f0260033</Parent>
+	    <Code>000000045</Code>
+	    <Description>Отделение рассады</Description>
+	</CatalogObject.ПодразделенияОрганизаций>
+	<CatalogObject.ДолжностиОрганизаций>
+	    <Ref>6faecdb5-74c1-11e4-afd8-001185b8cfc6</Ref>
+	    <DeletionMark>false</DeletionMark>
+	    <Code>000000041</Code>
+	    <Description>Овощевод</Description>
+	</CatalogObject.ДолжностиОрганизаций>
+  </V8Exch:Data>
+</V8Exch>

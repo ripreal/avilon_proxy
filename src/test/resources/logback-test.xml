@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+			</Pattern>
+		</layout>
+	</appender>
+	<appender name="STDOUT_HTTP" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>%msg%n</Pattern>
+		</layout>
+	</appender>
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+	<logger name="org.apache.http.wire" level="DEBUG" additivity="false">
+		<appender-ref ref="STDOUT_HTTP" />
+	</logger>
+	<logger name="ru.avilon.proxy.rest" level="DEBUG">
+	</logger>
+	<logger name="com.datastax.driver.core.RequestHandler" level="INFO" />
+	
+</configuration>

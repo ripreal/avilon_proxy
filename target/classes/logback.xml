@@ -1,0 +1,39 @@
+<configuration scan="true">
+	<contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+	    <resetJUL>true</resetJUL>
+	</contextListener>
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>logs/ru.avilon.proxy.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/ru.avilon.proxy.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+			<maxHistory>10</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+	        	<maxFileSize>156MB</maxFileSize>
+	      	</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<immediateFlush>false</immediateFlush>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="REQ_RESP" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>logs/ru.avilon.proxy.reqresp.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>logs/ru.avilon.proxy.reqresp.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+			<maxHistory>10</maxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+	        	<maxFileSize>156MB</maxFileSize>
+	      	</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<immediateFlush>false</immediateFlush>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<root level="INFO">
+		<appender-ref ref="FILE" />
+	</root>
+	<logger name="ru.avilon.proxy.rest.configuration.ProxyLoggingFilter" level="INFO" additivity="false">
+		<appender-ref ref="REQ_RESP" />
+	</logger>
+</configuration>

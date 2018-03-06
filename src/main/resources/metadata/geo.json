@@ -1,0 +1,16 @@
+{
+   "geo":{
+      "longitude":{
+         "type":"double",
+         "required":true
+      },
+      "latitude":{
+         "type":"double",
+         "required":true
+      },
+      "userUUID":{
+         "type":"string",
+         "required":true
+      }
+   }
+}

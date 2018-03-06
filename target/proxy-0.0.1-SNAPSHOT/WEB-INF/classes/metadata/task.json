@@ -1,0 +1,69 @@
+{
+   "task":{
+      "name":{
+         "type":"string",
+         "required":true
+      },
+      "order":{
+         "type":"integer",
+         "required":true
+      },
+      "iconEncoded":{
+         "type":"string"
+      },
+      "color":{
+         "type":"string"
+      },
+      "parentTaskGroupUUID":{
+         "type":"string"
+      },
+      "requireFinish":{
+         "type":"boolean",
+         "required":true
+      },
+      "requireOnlineStart":{
+         "type":"boolean",
+         "required":true
+      },
+      "description":{
+         "type":"string"
+      },
+      "personal_task":{
+         "type":"boolean"
+      },
+      "start":{
+         "type": "object",
+         "object" :{
+            "date":{
+               "type":"long"
+            },
+            "userUUID":{
+               "type":"string"
+            },
+            "properties":{
+               "type":"list",
+               "list_type" : "advanced_property"
+            }
+         },
+         "required":true
+      },
+      "finish":{
+      "type": "object",
+      "object" : {
+            "date":{
+               "type":"long"
+            },
+            "userUUID":{
+               "type":"string"
+            },
+            "properties":{
+               "type":"list",
+               "list_type" : "advanced_property"
+            }
+         },
+         "required":true
+      }
+   }
+}
+
+

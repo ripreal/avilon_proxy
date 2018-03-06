@@ -1,0 +1,12 @@
+{
+   "task_group":{
+      "name":{
+         "type":"string",
+         "required":true
+      },
+      "parentTaskGroupUUID":{
+         "type":"string",
+         "required":false
+      }
+   }
+}

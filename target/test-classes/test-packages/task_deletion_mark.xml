@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<V8Exch:_1CV8DtUD xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <V8Exch:Package>44</V8Exch:Package>
+    <V8Exch:Data>
+        <v8:CatalogObject.ВидыРаботСотрудников>
+            <v8:IsFolder>false</v8:IsFolder>
+            <v8:Ref>db4ae32c-6db4-11e6-80e9-40a8f0260031</v8:Ref>
+            <v8:DeletionMark>true</v8:DeletionMark>
+            <v8:Parent>7a117da8-0d24-11e6-942a-005056ac0e86</v8:Parent>
+            <v8:Code>00-000078</v8:Code>
+            <v8:Description>Расстановка крючков</v8:Description>
+            <v8:ЕдиницаИзмерения>48954524-fad3-11e3-a99f-001185b8cfc6</v8:ЕдиницаИзмерения>
+            <v8:Трудоемкость>1</v8:Трудоемкость>
+            <v8:КратностьТрудоемкости>1</v8:КратностьТрудоемкости>
+            <v8:Комментарий/>
+            <v8:НеТребуетЗавершения>false</v8:НеТребуетЗавершения>
+            <v8:АдресацияНазначения>
+                <v8:Должность>b4fc25f3-0d24-11e6-942a-005056ac0e86</v8:Должность>
+                <v8:Выполнение>true</v8:Выполнение>
+                <v8:Регистрация>false</v8:Регистрация>
+            </v8:АдресацияНазначения>
+            <v8:НастройкаПараметров>
+                <v8:Параметр>b9dcf653-128f-11e6-942a-005056ac0e86</v8:Параметр>
+                <v8:Комментарий/>
+                <v8:ПриЗавершении>false</v8:ПриЗавершении>
+            </v8:НастройкаПараметров>
+        </v8:CatalogObject.ВидыРаботСотрудников>
+    </V8Exch:Data>
+</V8Exch:_1CV8DtUD>
